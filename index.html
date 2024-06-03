@@ -3,48 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Market on Telegram</title>
+    <title>Open Market</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        body, html {
             margin: 0;
             padding: 0;
+            width: 100%;
+            height: 100%;
             display: flex;
-            justify-content: center;
             align-items: center;
-            height: 100vh;
-            background: #f4f4f4;
-        }
-        .container {
-            text-align: center;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        h1 {
+            justify-content: center;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
             color: #333;
         }
+        .container {
+            max-width: 600px;
+            text-align: center;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            color: #007bff;
+        }
         p {
+            font-size: 16px;
             color: #666;
+            line-height: 1.5;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjxwYXRoIGZpbGw9IiMwMDdCRkYiIGQ9Ik00NzAgMTAwNGMtMjUuNSAwLTQ2LTIwLjUtNDYtNDZWODIwaC0xNzRjLTI1LjUgMC00Ni0yMC41LTQ2LTQ2VjU3NmMtMjUuNSAwLTQ2LTIwLjUtNDYtNDZWNDBjMC0yNS41IDIwLjUtNDYgNDYtNDZoNzE0YzI1LjUgMCA0NiAyMC41IDQ2IDQ2djQ5MGMwIDI1LjUtMjAuNSA0Ni00NiA0NnYyMjhjMCAyNS41LTIwLjUgNDYtNDYgNDZINjQ0djEzNGMwIDI1LjUtMjAuNSA0Ni00NiA0Nkg0N3ptLTE2NC00MzRjMCAyNS41IDIwLjUgNDYgNDYgNDZoMTc0djIyOGMwIDI1LjUgMjAuNSA0NiA0NiA0Nmg0NTZjMjUuNSAwIDQ2LTIwLjUgNDYtNDZWNDA2aDQwMmMwLTI1LjUtMjAuNS00Ni00Ni00NlY0MGMtMCAyNS41LTIwLjUgNDYtNDYgNDZINDc2di0zOGMwLTI1LjUtMjAuNS00Ni00Ni00Nkg3NHY0MzR6Ii8+PC9zdmc+');
+            background-size: cover;
+            margin: 0 auto 20px;
         }
         .button {
-            background-color: #007BFF;
-            color: white;
-            border: none;
+            display: inline-block;
             padding: 10px 20px;
-            text-align: center;
-        }
-        .button:hover {
-            background-color: #0056b3;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to TGShops Market!</h1>
-        <p>TGShops Market transforms Telegram chats into dynamic marketplaces, enabling vendors and buyers to interact directly and engage in commerce seamlessly. Join us to explore new opportunities and expand your business with our decentralized and integrative platform.</p>
-        <button class="button">Learn More</button>
+        <div class="logo"></div>
+        <h1>Welcome to Open Market</h1>
+        <p>Discover a new era of online shopping with our decentralized marketplace. Engage directly with vendors and streamline your purchasing process through our innovative platform.</p>
+        <a href="#" class="button">Learn More</a>
     </div>
 </body>
 </html>
